@@ -10,7 +10,6 @@ public class Car {
     private String owner;
     private List<String> owners = new ArrayList<>();
 
-
     public Car(String name, String number, int year, String owner) {
         this.name = name;
         this.number = number;
@@ -18,11 +17,9 @@ public class Car {
         this.owner = owner;
         owners.add(owner);
     }
-
     public String getName() {
         return name;
     }
-
     public String getNumber() {
         return number;
     }

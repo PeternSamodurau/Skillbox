@@ -7,7 +7,6 @@ public class Employee {
     private String name;
     private Integer salary;
     private Date workStart;
-
     public Employee(String name, Integer salary, Date workStart) {
         this.name = name;
         this.salary = salary;
